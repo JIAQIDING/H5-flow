@@ -1,0 +1,1040 @@
+//
+// Glyphicons for Bootstrap
+//
+// Since icons are fonts, they can be placed anywhere text is placed and are
+// thus automatically sized to match the surrounding child. To use, create an
+// inline element with the appropriate classes, like so:
+//
+// <a href="javascript:void(0);"><span class="glyphicon glyphicon-star"></span> Star</a>
+// Import the fonts
+@font-face {
+    font-family: "iconfont";
+    src: url("@{icon-font-path}@{icon-font-name}.eot");
+    src: url("@{icon-font-path}@{icon-font-name}.ttf") format("truetype"),
+    url("@{icon-font-path}@{icon-font-name}.svg#@{icon-font-svg-id}") format("svg");
+}
+
+// Catchall baseclass
+.c-glyphicon {
+    position: relative;
+    display: inline-block;
+    font-size: .14rem;
+    font-family: "iconfont";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    color: @green-light;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+// Individual icons
+.c-glyphicon-feed:before {
+    content: "\e834";
+}
+
+.c-glyphicon-searchfine:before {
+    content: "\e83a";
+    font-size: .2rem;
+    color: #b0b0b0;
+}
+
+.c-glyphicon-recorder:before {
+    content: "\e83b";
+    font-size: .2rem;
+    color: #b0b0b0;
+}
+
+.c-glyphicon-search:before {
+    content: "\e600";
+    font-size: .12rem;
+}
+
+.c-glyphicon-close:before {
+    content: "\e607";
+    color: #c9c9c9;
+}
+
+.c-glyphicon-menu:before {
+    content: "\e823";
+    font-size: .2rem;
+    color: @gray-darker;
+}
+
+.c-glyphicon-arrowRight:before {
+    color: @gray-light;
+    content: "\e835";
+}
+
+.c-glyphicon-arrowLeft {
+    .rotate(-180deg);
+
+    &:before {
+        color: @gray-base;
+        content: "\e835";
+    }
+}
+
+.c-glyphicon-arrowDown {
+    .rotate(90deg);
+
+    &:before {
+        color: @gray-base;
+        content: "\e835";
+    }
+}
+
+.c-glyphicon-more:before {
+    content: "\e833";
+}
+
+.c-glyphicon-refresh:before {
+    content: "\e83c";
+}
+
+.c-glyphicon-arrowUp:before {
+    color: #fff;
+    content: "\e60c";
+}
+
+.c-glyphicon-guideClose:before {
+    content: "\e608";
+}
+
+.c-glyphicon-orderOK:before {
+    content: "\e83d";
+}
+
+.c-glyphicon-orderHint:before {
+    content: "\e83e";
+}
+
+.c-glyphicon-searchhome:before {
+    content: "\e845";
+    color: #fff;
+}
+
+.c-glyphicon-explain:before {
+    content: "\e846";
+    color: #fff;
+}
+
+.c-glyphicon-fullscreen:before {
+    content: "\e612";
+    color: @white;
+    font-size: .18rem;
+}
+
+.c-glyphicon-checkboxed:before {
+    content: "\e622";
+}
+
+.c-glyphicon-checkbox:before {
+    content: "\e626";
+}
+
+.c-glyphicon-cellphone:before {
+    content: "\e861";
+    color: #999;
+}
+
+.c-glyphicon-computer:before {
+    content: "\e862";
+    color: #999;
+}
+
+.c-glyphicon-television:before {
+    content: "\e863";
+    color: #999;
+}
+
+.c-glyphicon-jia:before {
+    content: "\e864";
+    color: #21bd22;
+}
+
+.c-glyphicon-warn:before {
+    content: "\e630";
+    color: #ff724b;
+}
+
+.c-glyphicon-iqy:before {
+    content: "\e7fb";
+    color: @white;
+}
+
+.c-glyphicon-albumPlay:before {
+    content: "\e865";
+    color: @green;
+    font-size: .16rem;
+}
+
+.c-glyphicon-tennis:before {
+    content: "\e85e";
+    color: #1d3900;
+    font-size: .16rem;
+}
+
+.c-glyphicon-add:before {
+    content: "\e864";
+    color: #fff;
+    font-size: .12rem;
+}
+
+.c-glyphicon-edit:before {
+    content: "\e86e";
+}
+
+.c-glyphicon-hot:before {
+    content: "\e86f";
+    color: #ff6b31;
+}
+
+.c-glyphicon-album-Bplay:before {
+    content: "\e879";
+    color: #fff;
+}
+
+.c-glyphicon-album-Splay:before {
+    content: "\e87a";
+    color: #fff;
+}
+
+.c-glyphicon-messages:before {
+    content: "\e87f";
+    color: #fff;
+}
+
+.c-glyphicon-playRefresh:before {
+    content: "\e881";
+}
+
+.c-glyphicon-playShare:before {
+    content: "\e882";
+}
+
+.c-glyphicon-time:before {
+    content: "\e634";
+}
+
+.c-glyphicon-roundArrow:before {
+    content: "\e606";
+    color: #0abe06;
+    font-weight: bold;
+}
+
+.c-glyphicon-ellipsis:before {
+    content: "\e85d";
+}
+
+.c-glyphicon-tryPlay:before {
+    content: "\e85b";
+}
+
+.c-glyphicon-play:before {
+    content: "\e879";
+    color: #999;
+}
+
+.c-glyphicon-morevideo:before {
+    content: "\e9bb";
+}
+
+.c-glyphicon-refreshnew:before {
+    content: "\e9bc";
+}
+
+.c-glyphicon-fw-arrow:before {
+    content: "\e847";
+}
+
+.c-glyphicon-voteup:before {
+    content: "\e7e9";
+}
+
+// 新版导航字体图标
+.c-glyphicon-menuList:before {
+    content: "\e9bf";
+}
+
+.c-glyphicon-searchnavigation:before {
+    content: "\e9c0";
+}
+
+//pic icons
+.m-picicon-wrap {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+// 常规尺寸（海报图）
+.c-picicon {
+    display: inline-block;
+    vertical-align: top;
+    width: .4rem;
+    height: .19rem;
+    background: url(~"@{images-path}/h5-aura/picicon-bg-20190322.png") no-repeat 10rem 10rem;
+    background-size: 1.7rem 1.6rem;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+// 小尺寸类型（选集）
+.c-picicon-s {
+    display: inline-block;
+    vertical-align: top;
+    width: .4rem;
+    height: .19rem;
+    background: url(~"@{images-path}/h5-aura/picicon-s-bg-20180926.png") no-repeat 10rem 10rem;
+    background-size: 1.7rem 1.6rem;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.c-picicon-vip {
+    background-position: -.41rem 0;
+}
+
+.c-picicon-onlyPlay {
+    background-position: 0 0;
+}
+
+.c-picicon-self {
+    background-position: -.8rem 0;
+}
+
+.c-picicon-1080P {
+    width: .5rem;
+    background-position: -1.2rem -1px;
+}
+
+.c-picicon-zt {
+    background-position: 0 -.2rem;
+}
+
+.c-picicon-coupons {
+    background-position: -.4rem -.2rem;
+}
+
+.c-picicon-pay {
+    background-position: -.8rem -.2rem;
+}
+
+.c-picicon-zb {
+    background-position: 0 -.4rem;
+}
+
+.c-picicon-paike {
+    background-position: -.4rem -.4rem;
+}
+
+.c-picicon-live {
+    width: .61rem;
+    background-position: -1.09rem -.4rem;
+}
+
+.c-picicon-paylive {
+    width: .61rem;
+    background-position: -1.09rem -.6rem;
+}
+
+.c-picicon-paydianbo {
+    width: .61rem;
+    background-position: -1.09rem -.8rem;
+}
+
+.c-picicon-new {
+    background-position: 0 -0.6rem;
+}
+
+.c-picicon-zbing {
+    width: .5rem;
+    background-position: 0 -0.8rem;
+}
+
+.c-picicon-tehui {
+    background-position: -1.2rem -.2rem;
+}
+
+.c-picicon-3d {
+    background-position: -.5rem -.8rem;
+}
+
+.c-picicon-imax {
+    width: .44rem;
+    background-position: -.8rem -1.2rem;
+}
+
+.c-picicon-heji {
+    background-position: -1.2rem -1.2rem;
+}
+
+.c-picicon-pianduan {
+    background-position: 0 -1.4rem;
+}
+
+.c-picicon-prevue {
+    background-position: -.41rem -.6rem;
+}
+
+.c-picicon-gGao {
+    background-position: 0 -1rem;
+}
+
+.c-picicon-trysee {
+    width: .28rem;
+    height: .15rem;
+    background-position: -0.46rem -1.4rem;
+}
+
+.c-picicon-tryseeHollow {
+    width: .28rem;
+    height: .15rem;
+    background-position: -0.86rem -1.4rem;
+}
+
+.c-picicon-laqi {
+    width: .275rem;
+    height: .13rem;
+    background: url(~"@{images-path}/h5-aura/c-laqi-icon-new.png") no-repeat;
+    background-size: contain;
+}
+
+// 目前小picicon
+.c-picicon-shop {
+    background-position: 0 -1rem;
+}
+
+.c-picicon-cartoon {
+    background-position: -.4rem -1rem;
+}
+
+.c-picicon-wenxue {
+    background-position: -.8rem -1rem;
+}
+
+.c-picicon-film {
+    width: .48rem;
+    background-position: right -1rem;
+}
+
+.c-picicon-game {
+    background-position: 0 -1.2rem;
+}
+
+.c-picicon-original {
+    background-position: -.4rem -1.2rem;
+}
+
+.c-picicon-feature {
+    background-position: -.4rem -1.4rem;
+}
+
+// 会员划价类型：vip、付费、用券、网球会员（生产url、高度60px）
+.c-picicon-vipType {
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+
+    &.c-picicon {
+        width: .8rem;
+        height: .2rem;
+    }
+
+    &.c-picicon-s {
+        width: .4rem;
+        height: .12rem;
+    }
+}
+
+// logo
+.logo-iqiyi {
+    display: inline-block;
+    width: .4rem;
+    height: .4rem;
+    background: url(/../../images/logo.png) no-repeat;
+    background-size: cover;
+}
+
+
+// vip-tab-nav-icon
+.c-vip-tabNav-icon {
+    display: inline-block;
+    width: .18rem;
+    height: .18rem;
+    margin-right: .05rem;
+    vertical-align: -0.03rem;
+    background: url(~"@{images-path}/h5-aura-vipChannel/c-vipChannel-icon-20190320.png") no-repeat 10rem 10rem;
+    background-size: 1.4rem .7rem;
+}
+
+.c-vip-tabNav-recommend {
+    background-position: 0 0;
+}
+
+.selected .c-vip-tabNav-recommend {
+    background-position: -.18rem 0;
+}
+
+.c-vip-tabNav-library {
+    background-position: -.36rem 0;
+}
+
+.selected .c-vip-tabNav-library {
+    background-position: -.54rem 0;
+}
+
+.c-vip-tabNav-club {
+    background-position: -.72rem 0;
+}
+
+.selected .c-vip-tabNav-club {
+    background-position: -.90rem 0;
+}
+
+
+// videoplay-icon
+.c-videoplay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    .translate(-50%; -50%);
+}
+
+.c-videoplay-icon {
+    background-image: url(~"@{images-path}/h5-v3/play-current20161111.png");
+    background-size: 1.9rem .7rem;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.c-videoplay-big {
+    .square(.7rem);
+    background-position: 0 0;
+}
+
+.selected .c-videoplay-big {
+    .square(.7rem);
+    background-position: -1.2rem 0;
+}
+
+.c-videoplay-small {
+    .square(.32rem);
+    background-position: -.88rem 0;
+}
+
+//vip等级图标
+.c-usergrade-icon {
+    background-image: url(~"@{images-path}/h5-aura/vip-grade-icon.png");
+    background-size: 1.92rem .48rem;
+    display: inline-block;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    width: .24rem;
+    height: .24rem;
+}
+
+.c-usergrade-0 {
+    background-position: 0 0
+}
+
+.c-usergrade-1 {
+    background-position: -.24rem 0
+}
+
+.c-usergrade-2 {
+    background-position: -.48rem 0
+}
+
+.c-usergrade-3 {
+    background-position: -.72rem 0
+}
+
+.c-usergrade-4 {
+    background-position: -.96rem 0
+}
+
+.c-usergrade-5 {
+    background-position: -1.2rem 0
+}
+
+.c-usergrade-6 {
+    background-position: -1.44rem 0
+}
+
+.c-usergrade-7 {
+    background-position: -1.68rem 0
+}
+
+.c-vip-usergrade-0 {
+    background-position: 0 -.24rem
+}
+
+.c-vip-usergrade-1 {
+    background-position: -.24rem -.24rem
+}
+
+.c-vip-usergrade-2 {
+    background-position: -.48rem -.24rem
+}
+
+.c-vip-usergrade-3 {
+    background-position: -.72rem -.24rem
+}
+
+.c-vip-usergrade-4 {
+    background-position: -.96rem -.24rem
+}
+
+.c-vip-usergrade-5 {
+    background-position: -1.2rem -.24rem
+}
+
+.c-vip-usergrade-6 {
+    background-position: -1.44rem -.24rem
+}
+
+.c-vip-usergrade-7 {
+    background-position: -1.68rem -.24rem
+}
+
+//体育会员、网球会员icon(我的 、俱乐部登录条)
+.c-viptennis-icon {
+    background-image: url(~"@{images-path}/h5-aura/viptennis-icon-20180622.png");
+    background-size: 1.5rem .7rem;
+    display: inline-block;
+    vertical-align: top;
+    background-repeat: no-repeat;
+}
+
+.c-tennis-gray {
+    width: .24rem;
+    height: .24rem;
+    background-position: .02rem -.48rem;
+    margin-left: .04rem;
+}
+
+.c-tennis-vip {
+    width: .24rem;
+    height: .24rem;
+    background-position: -.18rem -.48rem;
+    margin-left: .04rem;
+}
+
+.c-sports-gray {
+    width: .24rem;
+    height: .24rem;
+    background-position: -.48rem -.48rem;
+    margin-left: .03rem;
+}
+
+.c-sports-vip {
+    width: .24rem;
+    height: .24rem;
+    background-position: -.68rem -.48rem;
+    margin-left: .03rem;
+}
+
+// share
+.c-icon-share {
+    background-image: url(~"@{images-path}/h5-v3/share20171121.png");
+    background-repeat: no-repeat;
+    width: 0.35rem;
+    height: 0.35rem;
+    background-size: 3.38rem .35rem;
+    display: inline-block;
+}
+
+.c-icon-share-sina {
+    background-position: -0.025rem 0;
+}
+
+.c-icon-share-qzone {
+    background-position: -0.525rem 0;
+}
+
+.c-icon-share-renren {
+    background-position: -1.02rem 0;
+}
+
+.c-icon-share-qq {
+    background-position: -1.525rem 0;
+}
+
+.c-icon-share-weixin {
+    background-position: -2.02rem 0;
+}
+
+.c-icon-share-pyq {
+    background-position: -2.525rem 0;
+}
+
+.c-icon-share-link {
+    background-position: -3.02rem 0;
+}
+
+//播放页相关按钮
+.c-playPage-icon {
+    background-image: url(~"@{images-path}/h5-aura/playPage-icon-2019040315.png");
+    background-size: 2.16rem .59rem;
+    display: inline-block;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    .square(.24rem);
+}
+
+.selected .c-playPage-more {
+    background-position: -.24rem 0;
+}
+
+.c-playPage-down {
+    background-position: -.48rem 0;
+}
+
+.c-playPage-share {
+    background-position: -.72rem 0;
+}
+
+.selected .c-playPage-share {
+    background-position: -.96rem 0;
+}
+
+.c-playPage-play {
+    background-position: -1.2rem 0;
+}
+
+.c-playPage-warn {
+    background-position: -1.44rem 0;
+}
+
+.c-playPage-headset {
+    background-position: -.22rem -.27rem;
+    width: .2rem;
+    height: .2rem;
+}
+
+.c-playPage-over {
+    background-position: -1.68rem 0;
+}
+
+.c-playPage-hot {
+    background-position: 0 -.24rem;
+    width: .2rem;
+    height: .2rem;
+}
+
+.c-playPage-comment {
+    background-position: -1.2rem -.24rem;
+}
+
+.c-playPage-like {
+    background-position: -1.44rem -.24rem;
+}
+
+.selected .c-playPage-like {
+    background-position: -1.68rem -.33rem;
+}
+
+// 新版播放页相关按钮
+.c-videoPlayPage-icon {
+    background-image: url(~"@{images-path}/h5-aura/videoPlayPage-icon-2019040315.png");
+    background-size: 1.5rem auto;
+    display: inline-block;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    .square(.24rem);
+    background-position: 10rem 10rem;
+}
+
+.c-videoPlayPage-share {
+    background-position: 0 -.1rem;
+}
+
+.c-videoPlayPage-comment {
+    background-position: -.245rem -.1rem;
+}
+
+.c-videoPlayPage-more {
+    background-position: -.48rem -.1rem;
+}
+
+.selected .c-videoPlayPage-more {
+    background-position: -.72rem -.1rem;
+}
+
+.c-videoPlayPage-like {
+    width: .26rem;
+    background-position: -.96rem -.1rem;
+}
+
+.selected .c-videoPlayPage-like {
+    width: .26rem;
+    background-position: -1.22rem -.1rem;
+}
+
+.noclicklike .c-videoPlayPage-like {
+    width: .26rem;
+    background-position: -1.23rem -0.34rem;
+}
+
+.c-videoPlayPage-down {
+    background-position: 0 -.34rem;
+}
+
+.c-videoPlayPage-collect {
+    background-position: -.245rem -.34rem;
+}
+
+.selected .c-videoPlayPage-collect {
+    background-position: -.48rem -.34rem;
+}
+
+.c-videoPlayPage-report {
+    background-position: -.72rem -.34rem;
+}
+
+.c-videoPlayPage-faq {
+    background-position: -.96rem -.34rem;
+}
+
+.c-UserSpacing-collect {
+    background-position: 0rem -.68rem;
+    .square(.15rem)
+}
+
+.selected .c-UserSpacing-collect {
+    background-position: -.15rem -.68rem;
+}
+
+.c-sourceHandle-like {
+    background-position: 0 -.83rem;
+    width: .2rem;
+    height: .18rem;
+}
+
+.selected .c-sourceHandle-like {
+    background-position: -.2rem -.83rem;
+    width: .2rem;
+    height: .18rem;
+}
+
+.noclicklike .c-sourceHandle-like {
+    background-position: -0.9rem -0.25rem;
+    background-size: 1.1rem auto;
+}
+
+.c-sourceHandle-comment {
+    background-position: -.4rem -.83rem;
+    width: .19rem;
+    height: .18rem;
+    ;
+}
+
+.c-sourceHandle-share {
+    background-position: -.59rem -.83rem;
+    .square(.17rem);
+}
+
+.c-sourceHandle-down {
+    background-position: -.78rem -.83rem;
+    .square(.17rem);
+}
+
+.c-icon-danmu {
+    display: inline-block;
+    width: .16rem;
+    height: .16rem;
+    background: url(~"@{images-path}/h5-aura/c-icon-danmu.png") no-repeat;
+    background-size: cover;
+    vertical-align: top;
+}
+
+//爱奇艺号和热点
+.c-player-handle {
+    display: inline-block;
+    vertical-align: top;
+    width: .24rem;
+    height: .24rem;
+    background: url(~"@{images-path}/h5-aura/player-handle-2019040315.png") no-repeat 0 0;
+    background-size: 2.64rem .24rem;
+}
+
+.c-handle-comment {
+    background-position: 0 0;
+}
+
+.c-handle-like {
+    background-position: -.24rem 0;
+}
+
+&.selected {
+    .c-handle-like {
+        background-position: -.48rem 0;
+    }
+
+    .c-handle-collect {
+        background-position: -1.92rem 0;
+    }
+}
+
+.c-handle-share {
+    background-position: -.72rem 0;
+}
+
+.c-handle-nolike {
+    background-position: -.96rem 0;
+}
+
+.c-handle-download {
+    background-position: -1.2rem 0;
+}
+
+.c-handle-collect {
+    background-position: -1.68rem 0;
+}
+
+.c-handle-report {
+    background-position: -2.16rem 0;
+}
+
+.c-handle-nolike2 {
+    background-position: -2.4rem 0;
+}
+
+.user-starV {
+    position: relative;
+
+    &:before {
+        position: absolute;
+        content: "";
+        display: inline-block;
+        vertical-align: top;
+        right: -.04rem;
+        bottom: -.04rem;
+        width: .16rem;
+        height: .16rem;
+        background: url(~"@{images-path}/h5-aura/player-handle-20180926.png") no-repeat 0 0;
+        background-size: 1.68rem .24rem;
+        background-position: -1.48rem -.04rem;
+    }
+}
+
+//直播观看人数icon
+.c-icon-total {
+    width: .14rem;
+    height: .12rem;
+    display: inline-block;
+    background: url(~"@{images-path}/h5-aura/c-icon-total-20180725.png") no-repeat center;
+    background-size: cover;
+    vertical-align: -.015rem;
+    margin-right: .04rem;
+}
+
+// 热度新图标
+.icon-video-hot {
+    width: .14rem;
+    height: .14rem;
+    display: inline-block;
+    vertical-align: -.02rem;
+    background: url(~"@{images-path}/h5-aura/hot-icon-20181112.png") no-repeat center;
+    background-size: .42rem .14rem;
+
+    &.icon-hot-best {
+        background-position: 0 0;
+    }
+
+    &.icon-hot-better {
+        background-position: -.14rem 0;
+    }
+
+    &.icon-hot-good {
+        background-position: -.28rem 0;
+    }
+}
+
+// 点赞toast动画
+.c-like-sahua,
+.c-like-huobao,
+.c-like-thanks,
+.c-like-Nci,
+.c-like-yanshen,
+.c-like-bixin {
+    display: inline-block;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    margin: -.09rem .07rem -.09rem 0;
+
+    @-webkit-keyframes c-liketoast-animation {
+        from {
+            background-position: 0;
+        }
+
+        to {
+            background-position: 100%;
+        }
+    }
+
+    @keyframes c-liketoast-animation {
+        from {
+            background-position: 0;
+        }
+
+        to {
+            background-position: 100%;
+        }
+    }
+}
+
+.c-like-sahua {
+    width: .53rem;
+    height: .35rem;
+    background-image: url(~"@{images-path}/h5-aura/c-like-sahua1.png");
+    background-size: 6900% .35rem; //36.57rem
+    .animation(c-liketoast-animation 2s 0.5s steps(68));
+}
+
+.c-like-huobao {
+    width: .45rem;
+    height: .30rem;
+    background-image: url(~"@{images-path}/h5-aura/c-like-huobao1.png");
+    background-size: 3900% .3rem; //17.55rem
+    .animation(c-liketoast-animation 2s 0.5s steps(38));
+    margin-top: -.06rem;
+}
+
+.c-like-thanks {
+    width: .3rem;
+    height: .25rem;
+    background-image: url(~"@{images-path}/h5-aura/c-like-thanks1.png");
+    background-size: 5500% .25rem; //16.5rem
+    .animation(c-liketoast-animation 2s 0.5s steps(54));
+    margin-top: -.03rem;
+}
+
+.c-like-Nci {
+    width: .46rem;
+    height: .25rem;
+    background-image: url(~"@{images-path}/h5-aura/c-like-Nci1.png");
+    background-size: 4000% .25rem; //18.4rem
+    .animation(c-liketoast-animation 2s 0.5s steps(39));
+    margin-top: -.03rem;
+}
+
+.c-like-yanshen {
+    width: .5rem;
+    height: .25rem;
+    background-image: url(~"@{images-path}/h5-aura/c-like-yanshen1.png");
+    background-size: 4000% .25rem; //20rem
+    .animation(c-liketoast-animation 2s 0.5s steps(39));
+    margin-top: -.03rem;
+}
+
+.c-like-bixin {
+    width: .5rem;
+    height: .25rem;
+    background-image: url(~"@{images-path}/h5-aura/c-like-bixin1.png");
+    background-size: 4000% .25rem; //20rem
+    .animation(c-liketoast-animation 2s 0.5s steps(39));
+    margin-top: -.03rem;
+}

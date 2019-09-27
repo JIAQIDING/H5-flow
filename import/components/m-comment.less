@@ -1,0 +1,431 @@
+.m-comment,.m-commet-fixed{
+    .comment-icon{
+        display: inline-block;
+        vertical-align: top;
+        width:.21rem;
+        height:.21rem;
+        background:url(~"@{images-path}/h5-aura/comment-icon-20180831.png") 0 0 no-repeat;
+        background-size:1.47rem auto;
+    }
+    .icon-love{
+        background-position: 0 0;
+    } 
+    .icon-img{
+        margin-top:.03rem;
+        background-position:-1.26rem 0;
+    }
+    .icon-mypai{
+        width:.34rem;
+        background-position:0 -.21rem;
+    }
+    .icon-official{
+        width:.34rem;
+        background-position:-.34rem -.21rem;
+    }
+    .selected {
+        .icon-love{
+            background-position:-.21rem 0;
+        }  
+    }
+    .icon-comment{
+        background-position:-.42rem 0;
+    }
+}
+.comment-title{
+    line-height: .6rem;
+    padding:0 .12rem;
+    font-size:.15rem;
+    color:#000;
+    font-weight: bold;
+    .num{
+        color: #666;
+        font-weight: normal;
+    }
+}
+.comment-info{
+    position: relative;
+    padding-bottom: .3rem;
+    .c-emoji-pic {
+        display: inline-block;
+        width: .2rem;
+        height: .2rem;
+        background-size: cover;
+        margin: -0.04rem .02rem 0;
+        padding-bottom: 0;
+        vertical-align: middle;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .user-info{
+        padding:0 .12rem .05rem .12rem;
+        .flexBox >  .boxMod();
+        .info-link{
+            display: block;
+            .flexBox >  .boxFlex(1);
+            .flexBox >  .boxMod();
+        }
+        .c-photo{
+            display: inline-block;
+            width:.35rem;
+            height:.35rem;
+            border-radius: .2rem;
+            background-size: cover;
+        }
+        .info{
+            .flexBox >  .boxFlex(1);
+            padding:0 .1rem;
+        }
+        .name{
+            color:#666;
+            line-height: .2rem;
+            .text-ellipsis();
+        }
+        .des{
+            font-size:.11rem;
+            color:#999;
+            line-height: .15rem;
+        }
+        .c-love-link{
+            display: inline-block;
+            .icon-love{
+                margin-top:.07rem;
+            }
+            .num{
+                display: inline-block;
+                vertical-align: top;
+                line-height: .35rem;
+                font-size:.13rem;
+                color:#888;
+            }
+        }
+        &.user-starV,&.user-daren{
+            .c-photo{
+                position: relative;
+                &:before{
+                    content: "";
+                    display: inline-block;
+                    vertical-align: top;
+                    position: absolute;
+                    right: -.04rem;
+                    bottom: -.04rem;
+                    width:.21rem;
+                    height:.21rem;
+                    background:url(~"@{images-path}/h5-aura/comment-icon.png") 0 0 no-repeat;
+                    background-size:1.47rem auto;
+                }
+            }  
+        }
+        &.user-starV{
+            &:before{
+                display: none;
+            }
+            .name{
+                color: #FF9600;
+            } 
+            .c-photo{
+                position: relative;
+                &:before{
+                    background-position: -.84rem 0;
+                }
+            }  
+        }
+        &.user-daren{
+            .c-photo{
+                &:before{
+                    background-position: -1.05rem 0;
+                }
+            }  
+        }
+        &.user-official{
+            .c-photo{
+                border:1px solid #e6e6e6;
+                padding:.04rem;
+                border-radius: .3rem;
+                box-sizing: border-box;
+            }
+            .info{
+                .name{
+                    position: relative;
+                    display: inline-block;
+                    vertical-align: top;
+                    max-width: 100%;
+                    padding-right: .34rem;
+                    height: .35rem;
+                    overflow: hidden;
+                    line-height: .35rem;
+                    box-sizing: border-box;
+                }
+                .name-des{
+                    display: inline-block;
+                    .text-ellipsis();
+                    color: #333;
+                    max-width: 100%;
+                }
+                .icon-official{
+                    position: absolute;
+                    top: .07rem;
+                    right: 0;
+                }
+            }
+        }
+    }
+    .content{
+        padding-left:.6rem;
+        padding-right:.12rem;
+        .info{
+            position: relative;
+            line-height: .21rem;
+            font-size:.15rem;
+            max-height:1.05rem;
+            .text-clamp(5);
+            text-align: justify;
+		    text-justify:inter-ideograph;
+            .c-link{
+                position: absolute;
+                right:0;
+                top:.83rem;
+                display: inline-block;
+                line-height: .21rem;
+                background-color: #fff;
+                color: #0bbe06;
+                &:before{
+                    content: "";
+                    position: absolute;
+                    top:0;
+                    height: .21rem;
+                    left:-.3rem;
+                    width:.3rem;
+                    .gradient .horizontal(@start-color:rgba(255, 255, 255, .1); @end-color: rgba(255, 255, 255,1); @start-percent: 0%; @end-percent: 100%);
+                }
+            }
+        } 
+        .img{
+            padding-top:.08rem;
+            img{
+                max-width: 100%;
+            }
+        }  
+        .official-info{
+            .flexBox >  .boxMod(); 
+            background-color: #F8F8F8;
+            border: 1px solid #E6E6E6;
+            border-radius: .05rem;
+            margin-top:.07rem;
+        }
+        .official-img{
+            display:block;
+            width:.64rem;
+            height:.64rem;
+            background-size:cover;
+            border-top-left-radius: .05rem;
+            border-bottom-left-radius: .05rem;
+        }
+        .official-text{
+            .flexBox >  .boxFlex(1);
+            padding-left:.1rem;
+            padding-right:.12rem;
+            border-top-right-radius: .05rem;
+            border-bottom-right-radius: .05rem;
+            .c-title{
+                position: relative;
+                display: inline-block;
+                vertical-align: top;
+                max-width:100%;
+                padding-right: .34rem;
+                height: .28rem;
+                overflow: hidden;
+                line-height: .28rem;
+                box-sizing: border-box;
+            }
+            .title-des{
+                display: inline-block;
+                .text-ellipsis();
+                color: #333;
+                max-width: 100%;
+            }
+            .icon-mypai{
+                position: absolute;
+                top: .03rem;
+                right: 0;
+            }
+            .c-des{
+                line-height: .15rem;
+                color:#999;
+                font-size:.11rem;
+                .text-clamp(2);
+            }
+        }
+    } 
+    .reply{
+        padding:.05rem .12rem;
+        line-height: .26rem;
+        margin:.15rem .12rem 0 .6rem;
+        background-color: #f7f7f7;
+        border-radius: .05rem; 
+        .reply-info{
+            .text-clamp(2);
+            text-align: justify;
+		    text-justify:inter-ideograph;
+        }
+        .name{
+            color:#666;
+            &.name-starV{
+                color: #FF9600;
+            }
+        }
+        .c-link-more{
+            display: block;
+            color: #0bbe06;
+            font-size:.13rem;
+        }
+        .look-img-link{
+            color: #0bbe06;
+        }
+    } 
+}
+.comment-link-all{
+    position: relative;
+    margin:0 .12rem;
+    display: block;
+    line-height: .4rem;
+    border-radius: .04rem;
+    text-align: center;
+    color:#666;
+    background-color: #F9F9F9;
+    &:focus, &:visited, &:active{
+        color:#666;
+    }
+}
+.comment-best,.comment-all{
+    .comment-info:last-child{
+        margin-bottom: 0;
+        &:before{
+            background-color: transparent;
+        }
+    }
+}
+//二级页
+.comment-sub{
+    .c-report-link{
+        display: inline-block;
+        width:.35rem;
+        line-height: .35rem;
+        text-align:center;
+        margin-right:-.09rem;
+        .c-glyphicon-ellipsis:before{
+            color:#999;
+            font-weight: bold;
+            font-size:.16rem;
+        }
+    }
+    .reply-link{
+        line-height: .35rem;
+        .c-link{
+            color:#666;
+            display: block;
+            text-align: right;
+            padding-right: .1rem;  
+        }
+    }
+    .comment-info{
+        padding-bottom:0;
+        margin-bottom:0;
+       .user-info {
+            .name-des,.reply-name{ 
+                display: inline-block;
+                .text-ellipsis();
+                max-width: 50%;
+            }
+            .c-des{
+                margin-right: .1rem;
+            }
+            .name-des{
+                color:#333;
+                padding-right: .06rem;
+                box-sizing: border-box;
+            }
+            .reply-name{
+                color:#666;
+            }
+        }
+        .content {
+            padding-right: .47rem;
+            .info{
+                margin-top:.12rem;
+                max-height:2.1rem;
+                .text-clamp(10);
+                .c-link{
+                    top:1.88rem;
+                }
+            }
+            &.selected{
+                .info{       
+                    max-height:2000rem;
+                    .text-clamp(20000);
+                }
+                .c-link{
+                    position: relative;
+                    top:auto;
+                    right:auto;
+                    &:before{
+                        width:0;
+                        overflow: hidden;
+                    }
+                }
+            }
+        }
+        .reply{
+            margin: .15rem .47rem 0 .6rem; 
+            .name-sub{
+                .flexBox >  .boxMod();
+                color:#999;
+            }
+            .name-des{
+                .flexBox >  .boxFlex(1);
+            }
+            .num{
+                font-size:.12rem;
+            }
+            .info{
+                position: relative;
+                max-height:1.05rem;
+                .text-clamp(5);
+                text-align: justify;
+                text-justify:inter-ideograph;
+            }
+            .c-link{
+                position: absolute;
+                right:0;
+                top:.8rem;
+                display: inline-block;
+                line-height: .21rem;
+                background-color: #f7f7f7;
+                color: #0bbe06;
+                &:before{
+                    content: "";
+                    position: absolute;
+                    top:0;
+                    height: .21rem;
+                    left:-.3rem;
+                    width:.3rem;
+                    .gradient .horizontal(@start-color:rgba(247, 247, 247, .1); @end-color: rgba(247, 247, 247,1); @start-percent: 0%; @end-percent: 100%);
+                }
+            }
+            &.selected{
+                .info{       
+                    max-height:2000rem;
+                    .text-clamp(20000);
+                }
+                .c-link{
+                    position: relative;
+                    top:auto;
+                    right:auto;
+                    &:before{
+                        width:0;
+                        overflow: hidden;
+                    }
+                }
+            }
+        }
+    }
+}

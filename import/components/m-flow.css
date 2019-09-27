@@ -1,0 +1,122 @@
+.m-con-flow {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  margin: .1rem 0;
+  padding: 0 .05rem;
+}
+.m-con-flow .m-flow-column {
+  width: 50%;
+  min-width: 0;
+  margin: 0 .05rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.m-con-flow .flow-item {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0.04rem 0.08rem 0 rgba(0, 0, 0, 0.04);
+  box-shadow: 0 0.04rem 0.08rem 0 rgba(0, 0, 0, 0.04);
+  border-radius: .08rem;
+  overflow: hidden;
+  display: block;
+  margin-bottom: .1rem;
+}
+.m-con-flow .flow-img-wrapper .img-pic {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.m-con-flow .flow-desc-wrapper {
+  position: relative;
+  font-size: .14rem;
+  padding: .1rem .1rem 0;
+  min-height: .3rem;
+  line-height: 150%;
+}
+.m-con-flow .flow-desc-wrapper .desc-title {
+  color: #333;
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: .14rem;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.m-con-flow .flow-info-wrapper {
+  padding: .1rem;
+  line-height: .25rem;
+  overflow: hidden;
+  position: relative;
+}
+.m-con-flow .flow-info-wrapper .info-user {
+  display: inline-block;
+}
+.m-con-flow .flow-info-wrapper .user-avator {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 10;
+  width: .25rem;
+  height: .25rem;
+  vertical-align: top;
+  float: left;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.m-con-flow .flow-info-wrapper .user-avator-pic {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+  -webkit-transition: opacity 0.2s ease-in;
+  -moz-transition: opacity 0.2s ease-in;
+  -o-transition: opacity 0.2s ease-in;
+  -ms-transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in;
+}
+.m-con-flow .flow-info-wrapper .user-name {
+  color: #333;
+  font-size: .12rem;
+  width: .66rem;
+  display: inline-block;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: top;
+  line-height: .25rem;
+  margin-left: .05rem;
+}
+.m-con-flow .flow-info-wrapper .info-likes {
+  position: absolute;
+  right: .1rem;
+  top: .1rem;
+  color: #666;
+  font-size: .14rem;
+  height: .25rem;
+  line-height: .25rem;
+}
+.m-con-flow .flow-info-wrapper .info-likes .icon-heart:before {
+  content: '\e601';
+  display: inline-block;
+  font-size: .14rem;
+  color: #666;
+}

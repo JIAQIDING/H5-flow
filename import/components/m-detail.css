@@ -1,0 +1,180 @@
+.m-con-detail .detail-img-wrapper .img-focus {
+  position: relative;
+  font-size: 0;
+  overflow: hidden;
+  padding-top: 100%;
+}
+.m-con-detail .detail-img-wrapper .img-pic {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.m-con-detail .detail-desc-wrapper {
+  position: relative;
+  font-size: .14rem;
+  padding: .1rem;
+  min-height: .3rem;
+  line-height: 150%;
+}
+.m-con-detail .detail-desc-wrapper .desc-title {
+  margin: 0 0 .1rem;
+  font-size: .18rem;
+  line-height: .26rem;
+  font-weight: bold;
+}
+.m-con-detail .detail-desc-wrapper .desc-section {
+  margin: 0 0 .15rem;
+  word-break: break-all;
+  font-size: .16rem;
+  color: #555;
+  line-height: .26rem;
+}
+.m-con-detail .detail-info-wrapper {
+  padding: .1rem;
+  line-height: .42rem;
+  overflow: hidden;
+  position: relative;
+}
+.m-con-detail .detail-info-wrapper:before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: 0;
+  left: 0;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -o-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  pointer-events: none;
+  border-bottom: 1px solid #e6e6e6;
+}
+.m-con-detail .detail-info-wrapper .info-user {
+  display: inline-block;
+}
+.m-con-detail .detail-info-wrapper .user-avator {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 10;
+  width: .42rem;
+  height: .42rem;
+  vertical-align: top;
+  float: left;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.m-con-detail .detail-info-wrapper .user-avator-pic {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+  -webkit-transition: opacity 0.2s ease-in;
+  -moz-transition: opacity 0.2s ease-in;
+  -o-transition: opacity 0.2s ease-in;
+  -ms-transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in;
+}
+.m-con-detail .detail-info-wrapper .user-name {
+  color: #333;
+  font-size: .16rem;
+  width: 1.66rem;
+  display: inline-block;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: top;
+  line-height: .42rem;
+  margin-left: .1rem;
+}
+.m-con-detail .detail-info-wrapper .info-button {
+  position: absolute;
+  right: .1rem;
+  top: .17rem;
+  color: #ff2741;
+  font-size: .14rem;
+  width: .6rem;
+  height: .28rem;
+  line-height: .28rem;
+  text-align: center;
+  border-radius: 4px;
+}
+.m-con-detail .detail-info-wrapper .info-button:before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: 0;
+  left: 0;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -o-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  pointer-events: none;
+  border: 1px solid #ff2741;
+  border-radius: 8px;
+}
+.m-con-detail .detail-action-wrapper {
+  margin: .1rem 0 .2rem;
+  padding: 0 .1rem;
+}
+.m-con-detail .action-list {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.m-con-detail .action-item {
+  margin: 0 .3rem 0 0;
+}
+.m-con-detail .action-item .icon {
+  font-size: .16rem;
+}
+.m-con-detail .action-item .action-num {
+  color: #555;
+  font-size: .16rem;
+  vertical-align: middle;
+  height: .2rem;
+  padding-left: .03rem;
+}

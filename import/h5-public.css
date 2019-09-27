@@ -1,0 +1,1269 @@
+@charset "utf-8";
+@font-face {
+  font-family: "iconfont";
+  src: url("http://static.iqiyi.com/ext/common/auraIcon2019031816/iconfont.eot");
+  src: url("http://static.iqiyi.com/ext/common/auraIcon2019031816/iconfont.ttf") format("truetype"), url("http://static.iqiyi.com/ext/common/auraIcon2019031816/iconfont.svg#iconfont") format("svg");
+}
+.c-glyphicon {
+  position: relative;
+  display: inline-block;
+  font-size: .14rem;
+  font-family: "iconfont";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  color: #8fdd90;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.c-glyphicon-feed:before {
+  content: "\e834";
+}
+.c-glyphicon-searchfine:before {
+  content: "\e83a";
+  font-size: .2rem;
+  color: #b0b0b0;
+}
+.c-glyphicon-recorder:before {
+  content: "\e83b";
+  font-size: .2rem;
+  color: #b0b0b0;
+}
+.c-glyphicon-search:before {
+  content: "\e600";
+  font-size: .12rem;
+}
+.c-glyphicon-close:before {
+  content: "\e607";
+  color: #c9c9c9;
+}
+.c-glyphicon-menu:before {
+  content: "\e823";
+  font-size: .2rem;
+  color: #000000;
+}
+.c-glyphicon-arrowRight:before {
+  color: #999999;
+  content: "\e835";
+}
+.c-glyphicon-arrowLeft {
+  -webkit-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+.c-glyphicon-arrowLeft:before {
+  color: #666666;
+  content: "\e835";
+}
+.c-glyphicon-arrowDown {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.c-glyphicon-arrowDown:before {
+  color: #666666;
+  content: "\e835";
+}
+.c-glyphicon-more:before {
+  content: "\e833";
+}
+.c-glyphicon-refresh:before {
+  content: "\e83c";
+}
+.c-glyphicon-arrowUp:before {
+  color: #fff;
+  content: "\e60c";
+}
+.c-glyphicon-guideClose:before {
+  content: "\e608";
+}
+.c-glyphicon-orderOK:before {
+  content: "\e83d";
+}
+.c-glyphicon-orderHint:before {
+  content: "\e83e";
+}
+.c-glyphicon-searchhome:before {
+  content: "\e845";
+  color: #fff;
+}
+.c-glyphicon-explain:before {
+  content: "\e846";
+  color: #fff;
+}
+.c-glyphicon-fullscreen:before {
+  content: "\e612";
+  color: #ffffff;
+  font-size: .18rem;
+}
+.c-glyphicon-checkboxed:before {
+  content: "\e622";
+}
+.c-glyphicon-checkbox:before {
+  content: "\e626";
+}
+.c-glyphicon-cellphone:before {
+  content: "\e861";
+  color: #999;
+}
+.c-glyphicon-computer:before {
+  content: "\e862";
+  color: #999;
+}
+.c-glyphicon-television:before {
+  content: "\e863";
+  color: #999;
+}
+.c-glyphicon-jia:before {
+  content: "\e864";
+  color: #21bd22;
+}
+.c-glyphicon-warn:before {
+  content: "\e630";
+  color: #ff724b;
+}
+.c-glyphicon-iqy:before {
+  content: "\e7fb";
+  color: #ffffff;
+}
+.c-glyphicon-albumPlay:before {
+  content: "\e865";
+  color: #20bc22;
+  font-size: .16rem;
+}
+.c-glyphicon-tennis:before {
+  content: "\e85e";
+  color: #1d3900;
+  font-size: .16rem;
+}
+.c-glyphicon-add:before {
+  content: "\e864";
+  color: #fff;
+  font-size: .12rem;
+}
+.c-glyphicon-edit:before {
+  content: "\e86e";
+}
+.c-glyphicon-hot:before {
+  content: "\e86f";
+  color: #ff6b31;
+}
+.c-glyphicon-album-Bplay:before {
+  content: "\e879";
+  color: #fff;
+}
+.c-glyphicon-album-Splay:before {
+  content: "\e87a";
+  color: #fff;
+}
+.c-glyphicon-messages:before {
+  content: "\e87f";
+  color: #fff;
+}
+.c-glyphicon-playRefresh:before {
+  content: "\e881";
+}
+.c-glyphicon-playShare:before {
+  content: "\e882";
+}
+.c-glyphicon-time:before {
+  content: "\e634";
+}
+.c-glyphicon-roundArrow:before {
+  content: "\e606";
+  color: #0abe06;
+  font-weight: bold;
+}
+.c-glyphicon-ellipsis:before {
+  content: "\e85d";
+}
+.c-glyphicon-tryPlay:before {
+  content: "\e85b";
+}
+.c-glyphicon-play:before {
+  content: "\e879";
+  color: #999;
+}
+.c-glyphicon-morevideo:before {
+  content: "\e9bb";
+}
+.c-glyphicon-refreshnew:before {
+  content: "\e9bc";
+}
+.c-glyphicon-fw-arrow:before {
+  content: "\e847";
+}
+.c-glyphicon-voteup:before {
+  content: "\e7e9";
+}
+.c-glyphicon-menuList:before {
+  content: "\e9bf";
+}
+.c-glyphicon-searchnavigation:before {
+  content: "\e9c0";
+}
+.m-picicon-wrap {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.c-picicon {
+  display: inline-block;
+  vertical-align: top;
+  width: .4rem;
+  height: .19rem;
+  background: url(//www.iqiyipic.com/common/fix/h5-aura/picicon-bg-20190322.png) no-repeat 10rem 10rem;
+  background-size: 1.7rem 1.6rem;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+.c-picicon-s {
+  display: inline-block;
+  vertical-align: top;
+  width: .4rem;
+  height: .19rem;
+  background: url(//www.iqiyipic.com/common/fix/h5-aura/picicon-s-bg-20180926.png) no-repeat 10rem 10rem;
+  background-size: 1.7rem 1.6rem;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+.c-picicon-vip {
+  background-position: -0.41rem 0;
+}
+.c-picicon-onlyPlay {
+  background-position: 0 0;
+}
+.c-picicon-self {
+  background-position: -0.8rem 0;
+}
+.c-picicon-1080P {
+  width: .5rem;
+  background-position: -1.2rem -1px;
+}
+.c-picicon-zt {
+  background-position: 0 -0.2rem;
+}
+.c-picicon-coupons {
+  background-position: -0.4rem -0.2rem;
+}
+.c-picicon-pay {
+  background-position: -0.8rem -0.2rem;
+}
+.c-picicon-zb {
+  background-position: 0 -0.4rem;
+}
+.c-picicon-paike {
+  background-position: -0.4rem -0.4rem;
+}
+.c-picicon-live {
+  width: .61rem;
+  background-position: -1.09rem -0.4rem;
+}
+.c-picicon-paylive {
+  width: .61rem;
+  background-position: -1.09rem -0.6rem;
+}
+.c-picicon-paydianbo {
+  width: .61rem;
+  background-position: -1.09rem -0.8rem;
+}
+.c-picicon-new {
+  background-position: 0 -0.6rem;
+}
+.c-picicon-zbing {
+  width: .5rem;
+  background-position: 0 -0.8rem;
+}
+.c-picicon-tehui {
+  background-position: -1.2rem -0.2rem;
+}
+.c-picicon-3d {
+  background-position: -0.5rem -0.8rem;
+}
+.c-picicon-imax {
+  width: .44rem;
+  background-position: -0.8rem -1.2rem;
+}
+.c-picicon-heji {
+  background-position: -1.2rem -1.2rem;
+}
+.c-picicon-pianduan {
+  background-position: 0 -1.4rem;
+}
+.c-picicon-prevue {
+  background-position: -0.41rem -0.6rem;
+}
+.c-picicon-gGao {
+  background-position: 0 -1rem;
+}
+.c-picicon-trysee {
+  width: .28rem;
+  height: .15rem;
+  background-position: -0.46rem -1.4rem;
+}
+.c-picicon-tryseeHollow {
+  width: .28rem;
+  height: .15rem;
+  background-position: -0.86rem -1.4rem;
+}
+.c-picicon-laqi {
+  width: .275rem;
+  height: .13rem;
+  background: url(//www.iqiyipic.com/common/fix/h5-aura/c-laqi-icon-new.png) no-repeat;
+  background-size: contain;
+}
+.c-picicon-shop {
+  background-position: 0 -1rem;
+}
+.c-picicon-cartoon {
+  background-position: -0.4rem -1rem;
+}
+.c-picicon-wenxue {
+  background-position: -0.8rem -1rem;
+}
+.c-picicon-film {
+  width: .48rem;
+  background-position: right -1rem;
+}
+.c-picicon-game {
+  background-position: 0 -1.2rem;
+}
+.c-picicon-original {
+  background-position: -0.4rem -1.2rem;
+}
+.c-picicon-feature {
+  background-position: -0.4rem -1.4rem;
+}
+.c-picicon-vipType {
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+.c-picicon-vipType.c-picicon {
+  width: .8rem;
+  height: .2rem;
+}
+.c-picicon-vipType.c-picicon-s {
+  width: .4rem;
+  height: .12rem;
+}
+.logo-iqiyi {
+  display: inline-block;
+  width: .4rem;
+  height: .4rem;
+  background: url(../images/logo.png) no-repeat;
+  background-size: cover;
+}
+.c-vip-tabNav-icon {
+  display: inline-block;
+  width: .18rem;
+  height: .18rem;
+  margin-right: .05rem;
+  vertical-align: -0.03rem;
+  background: url(//www.iqiyipic.com/common/fix/h5-aura-vipChannel/c-vipChannel-icon-20190320.png) no-repeat 10rem 10rem;
+  background-size: 1.4rem .7rem;
+}
+.c-vip-tabNav-recommend {
+  background-position: 0 0;
+}
+.selected .c-vip-tabNav-recommend {
+  background-position: -0.18rem 0;
+}
+.c-vip-tabNav-library {
+  background-position: -0.36rem 0;
+}
+.selected .c-vip-tabNav-library {
+  background-position: -0.54rem 0;
+}
+.c-vip-tabNav-club {
+  background-position: -0.72rem 0;
+}
+.selected .c-vip-tabNav-club {
+  background-position: -0.9rem 0;
+}
+.c-videoplay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.c-videoplay-icon {
+  background-image: url(//www.iqiyipic.com/common/fix/h5-v3/play-current20161111.png);
+  background-size: 1.9rem .7rem;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.c-videoplay-big {
+  width: 0.7rem;
+  height: 0.7rem;
+  background-position: 0 0;
+}
+.selected .c-videoplay-big {
+  width: 0.7rem;
+  height: 0.7rem;
+  background-position: -1.2rem 0;
+}
+.c-videoplay-small {
+  width: 0.32rem;
+  height: 0.32rem;
+  background-position: -0.88rem 0;
+}
+.c-usergrade-icon {
+  background-image: url(//www.iqiyipic.com/common/fix/h5-aura/vip-grade-icon.png);
+  background-size: 1.92rem .48rem;
+  display: inline-block;
+  vertical-align: top;
+  background-repeat: no-repeat;
+  width: .24rem;
+  height: .24rem;
+}
+.c-usergrade-0 {
+  background-position: 0 0;
+}
+.c-usergrade-1 {
+  background-position: -0.24rem 0;
+}
+.c-usergrade-2 {
+  background-position: -0.48rem 0;
+}
+.c-usergrade-3 {
+  background-position: -0.72rem 0;
+}
+.c-usergrade-4 {
+  background-position: -0.96rem 0;
+}
+.c-usergrade-5 {
+  background-position: -1.2rem 0;
+}
+.c-usergrade-6 {
+  background-position: -1.44rem 0;
+}
+.c-usergrade-7 {
+  background-position: -1.68rem 0;
+}
+.c-vip-usergrade-0 {
+  background-position: 0 -0.24rem;
+}
+.c-vip-usergrade-1 {
+  background-position: -0.24rem -0.24rem;
+}
+.c-vip-usergrade-2 {
+  background-position: -0.48rem -0.24rem;
+}
+.c-vip-usergrade-3 {
+  background-position: -0.72rem -0.24rem;
+}
+.c-vip-usergrade-4 {
+  background-position: -0.96rem -0.24rem;
+}
+.c-vip-usergrade-5 {
+  background-position: -1.2rem -0.24rem;
+}
+.c-vip-usergrade-6 {
+  background-position: -1.44rem -0.24rem;
+}
+.c-vip-usergrade-7 {
+  background-position: -1.68rem -0.24rem;
+}
+.c-viptennis-icon {
+  background-image: url(//www.iqiyipic.com/common/fix/h5-aura/viptennis-icon-20180622.png);
+  background-size: 1.5rem .7rem;
+  display: inline-block;
+  vertical-align: top;
+  background-repeat: no-repeat;
+}
+.c-tennis-gray {
+  width: .24rem;
+  height: .24rem;
+  background-position: 0.02rem -0.48rem;
+  margin-left: .04rem;
+}
+.c-tennis-vip {
+  width: .24rem;
+  height: .24rem;
+  background-position: -0.18rem -0.48rem;
+  margin-left: .04rem;
+}
+.c-sports-gray {
+  width: .24rem;
+  height: .24rem;
+  background-position: -0.48rem -0.48rem;
+  margin-left: .03rem;
+}
+.c-sports-vip {
+  width: .24rem;
+  height: .24rem;
+  background-position: -0.68rem -0.48rem;
+  margin-left: .03rem;
+}
+.c-icon-share {
+  background-image: url(//www.iqiyipic.com/common/fix/h5-v3/share20171121.png);
+  background-repeat: no-repeat;
+  width: 0.35rem;
+  height: 0.35rem;
+  background-size: 3.38rem .35rem;
+  display: inline-block;
+}
+.c-icon-share-sina {
+  background-position: -0.025rem 0;
+}
+.c-icon-share-qzone {
+  background-position: -0.525rem 0;
+}
+.c-icon-share-renren {
+  background-position: -1.02rem 0;
+}
+.c-icon-share-qq {
+  background-position: -1.525rem 0;
+}
+.c-icon-share-weixin {
+  background-position: -2.02rem 0;
+}
+.c-icon-share-pyq {
+  background-position: -2.525rem 0;
+}
+.c-icon-share-link {
+  background-position: -3.02rem 0;
+}
+.c-playPage-icon {
+  background-image: url(//www.iqiyipic.com/common/fix/h5-aura/playPage-icon-2019040315.png);
+  background-size: 2.16rem .59rem;
+  display: inline-block;
+  vertical-align: top;
+  background-repeat: no-repeat;
+  width: 0.24rem;
+  height: 0.24rem;
+}
+.selected .c-playPage-more {
+  background-position: -0.24rem 0;
+}
+.c-playPage-down {
+  background-position: -0.48rem 0;
+}
+.c-playPage-share {
+  background-position: -0.72rem 0;
+}
+.selected .c-playPage-share {
+  background-position: -0.96rem 0;
+}
+.c-playPage-play {
+  background-position: -1.2rem 0;
+}
+.c-playPage-warn {
+  background-position: -1.44rem 0;
+}
+.c-playPage-headset {
+  background-position: -0.22rem -0.27rem;
+  width: .2rem;
+  height: .2rem;
+}
+.c-playPage-over {
+  background-position: -1.68rem 0;
+}
+.c-playPage-hot {
+  background-position: 0 -0.24rem;
+  width: .2rem;
+  height: .2rem;
+}
+.c-playPage-comment {
+  background-position: -1.2rem -0.24rem;
+}
+.c-playPage-like {
+  background-position: -1.44rem -0.24rem;
+}
+.selected .c-playPage-like {
+  background-position: -1.68rem -0.33rem;
+}
+.c-videoPlayPage-icon {
+  background-image: url(//www.iqiyipic.com/common/fix/h5-aura/videoPlayPage-icon-2019040315.png);
+  background-size: 1.5rem auto;
+  display: inline-block;
+  vertical-align: top;
+  background-repeat: no-repeat;
+  width: 0.24rem;
+  height: 0.24rem;
+  background-position: 10rem 10rem;
+}
+.c-videoPlayPage-share {
+  background-position: 0 -0.1rem;
+}
+.c-videoPlayPage-comment {
+  background-position: -0.245rem -0.1rem;
+}
+.c-videoPlayPage-more {
+  background-position: -0.48rem -0.1rem;
+}
+.selected .c-videoPlayPage-more {
+  background-position: -0.72rem -0.1rem;
+}
+.c-videoPlayPage-like {
+  width: .26rem;
+  background-position: -0.96rem -0.1rem;
+}
+.selected .c-videoPlayPage-like {
+  width: .26rem;
+  background-position: -1.22rem -0.1rem;
+}
+.noclicklike .c-videoPlayPage-like {
+  width: .26rem;
+  background-position: -1.23rem -0.34rem;
+}
+.c-videoPlayPage-down {
+  background-position: 0 -0.34rem;
+}
+.c-videoPlayPage-collect {
+  background-position: -0.245rem -0.34rem;
+}
+.selected .c-videoPlayPage-collect {
+  background-position: -0.48rem -0.34rem;
+}
+.c-videoPlayPage-report {
+  background-position: -0.72rem -0.34rem;
+}
+.c-videoPlayPage-faq {
+  background-position: -0.96rem -0.34rem;
+}
+.c-UserSpacing-collect {
+  background-position: 0rem -0.68rem;
+  width: 0.15rem;
+  height: 0.15rem;
+}
+.selected .c-UserSpacing-collect {
+  background-position: -0.15rem -0.68rem;
+}
+.c-sourceHandle-like {
+  background-position: 0 -0.83rem;
+  width: .2rem;
+  height: .18rem;
+}
+.selected .c-sourceHandle-like {
+  background-position: -0.2rem -0.83rem;
+  width: .2rem;
+  height: .18rem;
+}
+.noclicklike .c-sourceHandle-like {
+  background-position: -0.9rem -0.25rem;
+  background-size: 1.1rem auto;
+}
+.c-sourceHandle-comment {
+  background-position: -0.4rem -0.83rem;
+  width: .19rem;
+  height: .18rem;
+}
+.c-sourceHandle-share {
+  background-position: -0.59rem -0.83rem;
+  width: 0.17rem;
+  height: 0.17rem;
+}
+.c-sourceHandle-down {
+  background-position: -0.78rem -0.83rem;
+  width: 0.17rem;
+  height: 0.17rem;
+}
+.c-icon-danmu {
+  display: inline-block;
+  width: .16rem;
+  height: .16rem;
+  background: url(//www.iqiyipic.com/common/fix/h5-aura/c-icon-danmu.png) no-repeat;
+  background-size: cover;
+  vertical-align: top;
+}
+.c-player-handle {
+  display: inline-block;
+  vertical-align: top;
+  width: .24rem;
+  height: .24rem;
+  background: url(//www.iqiyipic.com/common/fix/h5-aura/player-handle-2019040315.png) no-repeat 0 0;
+  background-size: 2.64rem .24rem;
+}
+.c-handle-comment {
+  background-position: 0 0;
+}
+.c-handle-like {
+  background-position: -0.24rem 0;
+}
+.selected .c-handle-like {
+  background-position: -0.48rem 0;
+}
+.selected .c-handle-collect {
+  background-position: -1.92rem 0;
+}
+.c-handle-share {
+  background-position: -0.72rem 0;
+}
+.c-handle-nolike {
+  background-position: -0.96rem 0;
+}
+.c-handle-download {
+  background-position: -1.2rem 0;
+}
+.c-handle-collect {
+  background-position: -1.68rem 0;
+}
+.c-handle-report {
+  background-position: -2.16rem 0;
+}
+.c-handle-nolike2 {
+  background-position: -2.4rem 0;
+}
+.user-starV {
+  position: relative;
+}
+.user-starV:before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  right: -0.04rem;
+  bottom: -0.04rem;
+  width: .16rem;
+  height: .16rem;
+  background: url(//www.iqiyipic.com/common/fix/h5-aura/player-handle-20180926.png) no-repeat 0 0;
+  background-size: 1.68rem .24rem;
+  background-position: -1.48rem -0.04rem;
+}
+.c-icon-total {
+  width: .14rem;
+  height: .12rem;
+  display: inline-block;
+  background: url(//www.iqiyipic.com/common/fix/h5-aura/c-icon-total-20180725.png) no-repeat center;
+  background-size: cover;
+  vertical-align: -0.015rem;
+  margin-right: .04rem;
+}
+.icon-video-hot {
+  width: .14rem;
+  height: .14rem;
+  display: inline-block;
+  vertical-align: -0.02rem;
+  background: url(//www.iqiyipic.com/common/fix/h5-aura/hot-icon-20181112.png) no-repeat center;
+  background-size: .42rem .14rem;
+}
+.icon-video-hot.icon-hot-best {
+  background-position: 0 0;
+}
+.icon-video-hot.icon-hot-better {
+  background-position: -0.14rem 0;
+}
+.icon-video-hot.icon-hot-good {
+  background-position: -0.28rem 0;
+}
+.c-like-sahua,
+.c-like-huobao,
+.c-like-thanks,
+.c-like-Nci,
+.c-like-yanshen,
+.c-like-bixin {
+  display: inline-block;
+  vertical-align: top;
+  background-repeat: no-repeat;
+  margin: -0.09rem 0.07rem -0.09rem 0;
+}
+@-webkit-keyframes c-liketoast-animation {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: 100%;
+  }
+}
+@keyframes c-liketoast-animation {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: 100%;
+  }
+}
+.c-like-sahua {
+  width: .53rem;
+  height: .35rem;
+  background-image: url(//www.iqiyipic.com/common/fix/h5-aura/c-like-sahua1.png);
+  background-size: 6900% .35rem;
+  -webkit-animation: c-liketoast-animation 2s 0.5s steps(68);
+  -o-animation: c-liketoast-animation 2s 0.5s steps(68);
+  animation: c-liketoast-animation 2s 0.5s steps(68);
+}
+.c-like-huobao {
+  width: .45rem;
+  height: .30rem;
+  background-image: url(//www.iqiyipic.com/common/fix/h5-aura/c-like-huobao1.png);
+  background-size: 3900% .3rem;
+  -webkit-animation: c-liketoast-animation 2s 0.5s steps(38);
+  -o-animation: c-liketoast-animation 2s 0.5s steps(38);
+  animation: c-liketoast-animation 2s 0.5s steps(38);
+  margin-top: -0.06rem;
+}
+.c-like-thanks {
+  width: .3rem;
+  height: .25rem;
+  background-image: url(//www.iqiyipic.com/common/fix/h5-aura/c-like-thanks1.png);
+  background-size: 5500% .25rem;
+  -webkit-animation: c-liketoast-animation 2s 0.5s steps(54);
+  -o-animation: c-liketoast-animation 2s 0.5s steps(54);
+  animation: c-liketoast-animation 2s 0.5s steps(54);
+  margin-top: -0.03rem;
+}
+.c-like-Nci {
+  width: .46rem;
+  height: .25rem;
+  background-image: url(//www.iqiyipic.com/common/fix/h5-aura/c-like-Nci1.png);
+  background-size: 4000% .25rem;
+  -webkit-animation: c-liketoast-animation 2s 0.5s steps(39);
+  -o-animation: c-liketoast-animation 2s 0.5s steps(39);
+  animation: c-liketoast-animation 2s 0.5s steps(39);
+  margin-top: -0.03rem;
+}
+.c-like-yanshen {
+  width: .5rem;
+  height: .25rem;
+  background-image: url(//www.iqiyipic.com/common/fix/h5-aura/c-like-yanshen1.png);
+  background-size: 4000% .25rem;
+  -webkit-animation: c-liketoast-animation 2s 0.5s steps(39);
+  -o-animation: c-liketoast-animation 2s 0.5s steps(39);
+  animation: c-liketoast-animation 2s 0.5s steps(39);
+  margin-top: -0.03rem;
+}
+.c-like-bixin {
+  width: .5rem;
+  height: .25rem;
+  background-image: url(//www.iqiyipic.com/common/fix/h5-aura/c-like-bixin1.png);
+  background-size: 4000% .25rem;
+  -webkit-animation: c-liketoast-animation 2s 0.5s steps(39);
+  -o-animation: c-liketoast-animation 2s 0.5s steps(39);
+  animation: c-liketoast-animation 2s 0.5s steps(39);
+  margin-top: -0.03rem;
+}
+html {
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+figure,
+menu,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+select,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a {
+  background-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a:active {
+  outline: 0;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: 100%;
+}
+address,
+cite,
+dfn,
+em,
+i,
+var {
+  font-style: normal;
+}
+strong {
+  font-weight: normal;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: "monospace";
+  font-size: 0.1rem;
+}
+ul,
+ol {
+  list-style: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+}
+textarea {
+  overflow: hidden;
+  vertical-align: top;
+}
+input,
+textarea {
+  -webkit-appearance: none;
+}
+button,
+input,
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="tel"] {
+  font-family: inherit;
+  font-size: 100%;
+  border: none;
+}
+button:focus,
+input:focus,
+select:focus,
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus {
+  outline: none;
+}
+input[type="search"] {
+  -webkit-appearance: none;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+input[type="search"]:focus {
+  outline: none;
+}
+input:disabled,
+textarea:disabled {
+  color: #999999;
+}
+img {
+  border: none;
+  vertical-align: top;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+html {
+  font-size: 100px;
+}
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 100px;
+    font-size: 26.66666667vw;
+  }
+}
+body {
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 0.14rem;
+  line-height: 1;
+  color: #333333;
+}
+a {
+  color: #333333;
+  text-decoration: none;
+}
+a:focus,
+a:visited,
+a:active {
+  color: #333333;
+  text-decoration: none;
+}
+a.c-green,
+a.c-green:focus,
+a.c-green:visited,
+a.c-green:active {
+  color: #20bc22;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.pull-right {
+  float: right !important;
+}
+.pull-left {
+  float: left !important;
+}
+.hide,
+.dn {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.invisible {
+  visibility: hidden;
+}
+.po-fixed {
+  position: fixed;
+}
+.po-relative {
+  position: relative;
+}
+.po-absolute {
+  position: absolute;
+}
+.po-static {
+  position: static;
+}
+.text-left {
+  text-align: left !important;
+}
+.text-right {
+  text-align: right !important;
+}
+.text-center {
+  text-align: center !important;
+}
+.text-justify {
+  text-align: justify !important;
+}
+.text-overflow {
+  white-space: nowrap;
+  overflow: hidden;
+}
+.text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.text-break {
+  word-break: break-all;
+  word-wrap: break-word;
+}
+.m-box {
+  background-color: #fff;
+}
+.m-box > .m-box-items {
+  padding-left: .07rem;
+  padding-right: .07rem;
+}
+.m-box > .m-box-items.m-box-items-full {
+  padding-left: 0;
+  padding-right: 0;
+}
+.m-box.m-box-borderT {
+  border-top: .07rem solid #f7f7f7;
+}
+.m-box.m-box-borderB {
+  border-bottom: .07rem solid #f7f7f7;
+}
+.m-box.m-box-borderST {
+  border-top: 1px solid #f7f7f7;
+}
+.m-box.m-box-borderSB {
+  border-bottom: 1px solid #f7f7f7;
+}
+.padding-base {
+  padding: 0.07rem;
+}
+.padding-large {
+  padding: 0.14rem;
+}
+.c-rb,
+.c-rt,
+.c-lb,
+.c-lt,
+.c-lrb {
+  position: absolute;
+  z-index: 5;
+  overflow: hidden;
+}
+.c-rb {
+  right: 0;
+  bottom: 0;
+}
+.c-rt {
+  right: 0;
+  top: 0;
+}
+.c-lb {
+  left: 0;
+  bottom: 0;
+}
+.c-lt {
+  left: 0;
+  top: 0;
+}
+.c-lrb {
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.c-date {
+  display: inline-block;
+  font-size: 0.11rem;
+  line-height: .26rem;
+  padding: 0 .12rem;
+  color: #ffffff;
+  height: .26rem;
+}
+.c-date-score .score-item {
+  color: #ff6e0d;
+  font-weight: 700;
+}
+.body-overflow {
+  overflow: hidden;
+}
+.noborder-top {
+  border-top: 0 !important;
+}
+.cover {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: -80px;
+  z-index: 9998;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.m-toast {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  line-height: .18rem;
+  box-sizing: border-box;
+  color: #ffffff;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  width: 100%;
+  text-align: center;
+}
+.m-toast.toast-absolute {
+  position: absolute;
+}
+.m-toast .info {
+  padding: .095rem .18rem;
+  max-width: 77.33%;
+  background: rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  border-radius: .55rem;
+  text-align: center;
+  display: inline-block;
+  word-break: break-all;
+  max-height: .55rem;
+}
+.m-toast.toast-square .success-icon,
+.m-toast.toast-square .loading-icon {
+  width: .5rem;
+  height: .5rem;
+  margin-top: .2rem;
+  display: inline-block;
+  vertical-align: top;
+  display: block;
+  margin: .2rem auto 0;
+}
+.m-toast.toast-square .success-icon {
+  background: url(//www.iqiyipic.com/common/fix/h5-aura/success-icon.png) no-repeat;
+  background-size: cover;
+}
+.m-toast.toast-square .loading-icon {
+  background: url(//www.iqiyipic.com/common/fix/h5-aura/success-loading.png) no-repeat center;
+  background-size: cover;
+  -webkit-animation: loading-rotate 1s linear infinite;
+  -o-animation: loading-rotate 1s linear infinite;
+  animation: loading-rotate 1s linear infinite;
+}
+.m-toast.toast-square .info {
+  line-height: .4rem;
+  width: 1.5rem;
+  height: 1.4rem;
+  text-align: center;
+  border-radius: .1rem;
+  max-height: none;
+}
+.m-video-info-fixed .m-toast .info {
+  padding: .095rem .18rem;
+  line-height: .18rem;
+  color: #fff;
+}
+.m-toast.m-toast-like {
+  color: #ed4444;
+  -webkit-animation: mToastLike 1s;
+  -o-animation: mToastLike 1s;
+  animation: mToastLike 1s;
+}
+@-webkit-keyframes mToastLike {
+  from {
+    -webkit-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    -o-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
+@keyframes mToastLike {
+  from {
+    -webkit-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    -o-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
+.m-toast.m-toast-like .info {
+  padding: .09rem .15rem;
+  background: rgba(255, 238, 229, 0.95);
+  max-width: 80%;
+}
